@@ -1,8 +1,8 @@
-function sum(a, b) {
-  console.log(a, b);
-  return a + b;
+function multiply(num, num1) {
+  return num * num1;
 }
 
-sum(2, 5);
-sum(2, 0);
-sum(-1, 5);
+console.log(multiply(1, 0));
+console.log(multiply(1, -1));
+console.log(multiply(1, 6));
+console.log(multiply(1, 3));
