@@ -1,11 +1,12 @@
 function next() {
-  return 0
+  return "test"
 }
 
 function sum(num1, num2) {
   console.log(num1, num2);
-  return a + b;
+  return num1 + num2
 }
+
 
 sum(2, 2);
 sum(2, 0);
